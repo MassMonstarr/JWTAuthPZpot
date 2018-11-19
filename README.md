@@ -1,24 +1,24 @@
 ﻿# Spring Boot JWT Auth
 
-Spring Boot JWT auth demo.
+Spring Boot JWT auth demo.  
 
-## Getting Started
+## Getting Started  
 
-Users with the roles, **ROLE_ADMIN** and **ROLE_USER** exist. 
+Users with the roles, **ROLE_ADMIN** and **ROLE_USER** exist.   
 
-**Username:** Admin
-**Password:** 123
+**Username:** Admin  
+**Password:** 123  
 
-**Username:** User
-**Password:** 123
+**Username:** User  
+**Password:** 123  
 
 
-To sign in, send post request to [localhost:8080/api/auth/login](localhost:8080/api/auth/login) with body
+To sign in, send post request to [localhost:8080/api/auth/login](localhost:8080/api/auth/login) with body  
 
-{
-	"usernameOrEmail": "Admin",
-	"password": "123"
-}
+{  
+	"usernameOrEmail": "Admin",  
+	"password": "123"  
+}  
 
 **or**
 {
