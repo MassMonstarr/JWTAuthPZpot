@@ -20,7 +20,7 @@ To sign in, send post request to [localhost:8080/api/auth/login](localhost:8080/
 	"password": "123"  
 }  
 
-**or**
+**or**  
 {  
 	"usernameOrEmail": "User",  
 	"password": "123"  
@@ -35,7 +35,7 @@ A JWT will be returned from the server, sample:
 
 Use the token to access protected end points.  
 
-### Register a new user  
+### Register a new user    
 Send a POST request to [localhost:8080/api/auth/register](localhost:8080/api/auth/register)   
 
 With body:  
@@ -45,7 +45,7 @@ With body:
 	"password": "z"  
 }  
 
-## End Points
+## End Points  
 [localhost:8080/admin](localhost:8080/admin) only allows admins.  
 [localhost:8080/user](localhost:8080/user) only allows users and admins.  
 
